@@ -77,5 +77,4 @@ public class Product {
         return "{productId:" + productId + ", name:" + name + ", dateSupplied:" + dateSupplied
                 + ", quantityInStock:" + quantityInStock + ", unitPrice:" + unitPrice + "}";
     }
-
 }

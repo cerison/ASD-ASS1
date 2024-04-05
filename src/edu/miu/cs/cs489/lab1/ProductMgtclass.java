@@ -22,10 +22,12 @@ public class ProductMgtclass {
 
     public static void printProduct(Product[] products) {
         System.out.println("[");
-        for (Product product : products) {
-            System.out.println(product);
+        for (int i = 0; i < products.length; i++) {
+            String result = (i > 0)?", \n":"";
+            result += products[i].toString();
+            System.out.print(result);
         }
-        System.out.println("]");
+        System.out.println("\n]");
 
     }
 }
